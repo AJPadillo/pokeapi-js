@@ -1,7 +1,8 @@
 
 # PokeAPI Project
 
-Este es un proyecto simple que utiliza la [PokeAPI](https://pokeapi.co/) para mostrar información sobre Pokémon en una interfaz interactiva. Puedes probarlo en el siguiente [enlace](https://ajpadillo.github.io/pokeapi-js/).
+Este es un proyecto simple que utiliza la [PokeAPI](https://pokeapi.co/) para mostrar información sobre Pokémon en una interfaz interactiva.
+Puedes probarlo en el siguiente [enlace](https://ajpadillo.github.io/pokeapi-js/).
 
 ---
 
