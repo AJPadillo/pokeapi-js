@@ -147,6 +147,10 @@ export function searchAndRenderPokemon(searchValue) {
         });
 }
 
+function getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 export function fillRandomSearch() {
     const randomNumbers = [];
     for (let i = 0; i < 4; i++) {
@@ -158,6 +162,8 @@ export function fillRandomSearch() {
 export function clearSearchResults() {
     const list = document.getElementById('pokemon-list');
     list.innerHTML = '';
+    const searchField = document.getElementById('search-field');
+    searchField.value = '';
 }
 
 export function init() {
